@@ -7,8 +7,15 @@
     <meta name="description" content="Sarang Wandile's Portfolio">
     <meta name="keywords" content="DevOps, Portfolio, SarangWandile">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
+        .badges {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+             
+        }
         body {
             background-color: #f4f4f4;
         }
@@ -56,7 +63,11 @@
             <h1 class="text-4xl font-bold mb-4">Sarang Wandile</h1>
             <p class="text-xl text-gray-600">DevOps Engineer</p>
         </header>
-
+<div class="badges">
+   <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8818739f-dfab-4ac2-af37-cf31d0d2c2bd" data-share-badge-host="https://www.credly.com"></div>
+   <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="74736b22-7017-4bb9-acf3-6b68cfb64b2b" data-share-badge-host="https://www.credly.com"></div>
+   <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="579609fb-c366-444a-96ef-bdfec2e8469f" data-share-badge-host="https://www.credly.com"></div>
+</div>
         <section class="bg-white shadow-md rounded-lg p-8 mb-8 grid md:grid-cols-2 gap-4">
             <div>
                 <h2 id="about" class="text-2xl font-semibold mb-4">About Me</h2>
@@ -74,12 +85,9 @@
             </div>
             <div>
                 <h2 class="text-2xl font-semibold mb-4">Basic Information</h2>
-                <p><strong>DOB:</strong> 10/04/1997</p>
-                <p><strong>Languages:</strong> Marathi, Hindi, English</p>
-                <p><strong>Address:</strong> At Pawnar, Tah Dist Wardha 442111</p>
-                <p><strong>Phone:</strong> <span class="masked" id="phone">+XX-XX-XXX-XXX</span></p>
                 <p><strong>Email:</strong> mails@sarangwandile.xyz</p>
-                <p><strong>Education:</strong> Bachelor of Commerce</p>
+                <p><strong>Alt Email:</strong> sarangwandile@outlook.com</p>
+                <p><strong>Website:</strong> sarangwandile.xyz</p>
             </div>
         </section>
 
@@ -108,18 +116,14 @@
         <section class="bg-white shadow-md rounded-lg p-8 mb-8">
             <h2 id="certifications" class="text-2xl font-semibold mb-4">Certifications</h2>
             <div class="space-y-2">
-                <p>HashiCorp Certified: Terraform Associate (002)</p>
-                <a href="#" class="text-blue-600 hover:underline">Click here to verify my certifications</a>
-                <p>Google Cloud Certified Digital Leader</p>
-                <a href="#" class="text-blue-600 hover:underline">Click here to verify my certifications</a>
-                <p>AZ-400 Designing and Implementing DevOps Solutions</p>
-                <a href="#" class="text-blue-600 hover:underline">Click here to verify my certifications</a>
-                <p>AZ-104 Azure Administrator Associate</p>
-                <a href="#" class="text-blue-600 hover:underline">Click here to verify my certifications</a>
-                <p>Google Cloud Certified Professional Cloud Architect</p>
-                <a href="#" class="text-blue-600 hover:underline">Click here to verify my certifications</a>
-                <p>AWS Certified Cloud Practitioner</p>
-                <a href="#" class="text-blue-600 hover:underline">Click here to verify my certifications</a>
+                <p>Cloud DevOps from Intel Partner Technical Pro</p>
+                <a href="https://www.credly.com/badges/8818739f-dfab-4ac2-af37-cf31d0d2c2bd/public_url" class="text-blue-600 hover:underline">Badge ID: 8818739f-dfab-4ac2-af37-cf31d0d2c2bd</a>
+                <p>HashiCorp Terraform from KodeKloud</p>
+                <a href="https://kodekloud.com/certificate-verification/2D120101A120-2D120753119A-2D11F57145F8/" class="text-blue-600 hover:underline">Credential ID: 2D120101A120-2D120753119A-2D11F57145F8</a>
+                <p>Kubernetes from KodeKloud</p>
+                <a href="https://kodekloud.com/certificate-verification/2D120101A120-2ED7EE65CE89-2D11F57145F8/" class="text-blue-600 hover:underline">Credential ID: 2D120101A120-2ED7EE65CE89-2D11F57145F8</a>
+                <p>Docker from KodeKloud</p>
+                <a href="https://kodekloud.com/certificate-verification/2D120101A120-2ED7EE65CE89-2D11F57145F8/" class="text-blue-600 hover:underline">Credential ID: 2D120101A120-2ED7EE65CE89-2D11F57145F8</a>
             </div>
         </section>
 
@@ -152,26 +156,6 @@
         themeToggle.addEventListener('click', toggleTheme);
         
     </script>
-    
-    <script>
-   const phoneNumberSpan = document.getElementById('phone');
-  const actualNumber = "+91-8805303909"; 
-  let isMasked = true; 
-
-  phoneNumberSpan.addEventListener('click', () => {
-    if (isMasked) {
-      phoneNumberSpan.textContent = actualNumber;
-      phoneNumberSpan.style.color = 'blue';
-      phoneNumberSpan.style.cursor = 'default';
-      isMasked = false;
-    } else {
-      phoneNumberSpan.textContent = "+XX-XXXXXXXXXX"; 
-      phoneNumberSpan.style.color = 'gray';
-      phoneNumberSpan.style.cursor = 'pointer';
-      isMasked = true;
-    }
-  });
-</script>
 
 </body>
 </html>
